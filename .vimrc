@@ -21,3 +21,6 @@ if has("gui_running")
 set guioptions-=T
 endif
 :filetype plugin on
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
