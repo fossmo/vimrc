@@ -24,3 +24,7 @@ endif
 
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+
+let g:ctrlp_map = '<c-p>'
+
+let g:ctrlp_working_path_mode = 2
